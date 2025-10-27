@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/beneficiado")
-@CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.POST, RequestMethod.DELETE})
+@CrossOrigin(origins = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
 public class beneController {
 
     private final capturaPBeneService service;
